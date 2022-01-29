@@ -1,7 +1,5 @@
 # structural_svm
 
-ssvm_tool 2013.7
-
 A command line utility to train/test a Structural SVM (SSVM) model.
 
 ## Usage: ssvm_tool [OPTIONS]... [FILES]...
