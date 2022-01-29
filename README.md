@@ -57,7 +57,7 @@ A command line utility to train/test a Structural SVM (SSVM) model.
 ### Convert option:
     -t, --threshold=FLOAT  set threshold (convert mode)  (default=`1e-04')
 
-Group: MODE
+### Group: MODE:
     -p, --predict          prediction mode, default is training mode
         --show             show-feature mode
         --convert          convert mode ('txt model to bin model' or 'bin model to txt model (with -b)') and remove zero features (with --threshold option)
@@ -66,7 +66,7 @@ Group: MODE
         --modify=STRING    modify mode (modify feature weight), the option file is a list of feature weight
         --domain           domain adaptation (Prior model) for structural SVM (with fsmo/fsmo_joint/pegasos algorithms and source option)
 
- Group: Parameter Estimate Method for structural SVM
+### Group: Parameter Estimate Method for structural SVM:
     --fsmo             use Fixed-threshold SMO for structural SVM (shared slack)
     --fsmo_joint       use FSMO + joint constraint (1-slack) using Gram matrix
     --fsmo_joint2      use FSMO + joint constraint (1-slack) without Gram matrix (slow version)
